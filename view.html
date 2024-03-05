@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <style>
+        table,
+        thead,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        p{
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body onload="Load()">
+    <table>
+        <thead>
+            <td>ID</td>
+            <td>UserID</td>
+            <td>Title</td>
+            <td>Body</td>
+        </thead>
+        <tbody id='tbody'>ß
+        </tbody>
+    </table>
+    <div>
+        <div>
+            <p>ID:</p>
+            <input id = 'id'/>
+        </div>
+        <div>
+            <p>userID:</p>
+            <input id = 'userId'/>
+        </div>
+        <div>
+            <p>Title:</p>
+            <input id = 'title'/>
+        </div>
+        <div>
+            <p>Body:</p>
+            <input id = 'body'/>
+        </div>
+        <div>
+            <button onclick="Save()">Save</button>
+        </div>
+    </div>  
+</body>
+
+</html>
